@@ -3,6 +3,6 @@
 
 #include <string>
 
-std::string main(int argc, char* argv) {
-	return "No result yet";
+int main(int argc, char* argv) {
+	std::cout << "No result yet!" << std::endl;
 }
