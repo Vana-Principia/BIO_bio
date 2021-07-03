@@ -2,7 +2,16 @@
 // Please feel free to improve this solution, we'll need as much willing soul as possible. For the greater good.
 
 #include <string>
+#include <iostream>
 
-int main(int argc, char* argv) {
-	std::cout << "No result yet!" << std::endl;
+#include "./include/Field.h"
+
+int main(int argc, char** argv) {
+
+	std::string coordinatesOfTheField = "4.507289,48.396723:4.508242,48.396742";
+	const Coordinates coordinates(coordinatesOfTheField);
+	Field field("FieldCeleste", coordinates, 50);
+
+	std::string fieldName = field.getID();
+	std::cout << "The name of the field is" << fieldName << std::endl;
 }
