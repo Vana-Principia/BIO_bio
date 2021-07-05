@@ -5,7 +5,7 @@
  *      Author: antony
  */
 
-#include "../include/Plant.h"
+#include "Plant.h"
 
 Plant::Plant(std::string name) {
 	plantName = name;

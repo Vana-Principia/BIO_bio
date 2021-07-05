@@ -5,7 +5,7 @@
  *      Author: antony
  */
 
-#include "../include/Insect.h"
+#include "Insect.h"
 
 Insect::Insect(std::string name) {
 	insectName = name;

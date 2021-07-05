@@ -4,14 +4,14 @@
 #include <string>
 #include <iostream>
 
-#include "./include/Field.h"
+#include "Field.h"
 
 int main(int argc, char** argv) {
 
 	std::string coordinatesOfTheField = "4.507289,48.396723:4.508242,48.396742";
 	const Coordinates coordinates(coordinatesOfTheField);
-	Field field("FieldCeleste", coordinates, 50);
+	Field field("Celeste", coordinates, 50);
 
 	std::string fieldName = field.getID();
-	std::cout << "The name of the field is" << fieldName << std::endl;
+	std::cout << "The name of the field is " << fieldName << " and its coordinates are " << coordinatesOfTheField << std::endl;
 }

@@ -5,7 +5,7 @@
  *      Author: antony
  */
 
-#include "../include/LocalClimate.h"
+#include "LocalClimate.h"
 
 LocalClimate::LocalClimate(const Coordinates& localCoordinates) {
 	coordinates = localCoordinates;

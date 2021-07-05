@@ -5,7 +5,7 @@
  *      Author: antony
  */
 
-#include "../include/Field.h"
+#include "Field.h"
 
 Field::Field(std::string ID, const Coordinates& coordinates, int numberOfExistingPlants) {
 	fieldCoordinates = coordinates;

@@ -5,7 +5,7 @@
  *      Author: antony
  */
 
-#include "../include/Position.h"
+#include "Position.h"
 
 Position::Position() {
 	X = 0;
@@ -22,4 +22,3 @@ Position::Position(int coordX, int coordY, int coordZ) {
 Position::~Position() {
 
 }
-
