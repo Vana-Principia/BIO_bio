@@ -5,7 +5,7 @@ Feel free to contact us at contact@vanaprincipia.com (any help or advices are mo
 
 This project is <b>in progress and will be continuously improved</b>.
 
-The goal of this software is to <b>generate the most suitable architectures for specific coordinates</b>.
+The goal of this software is to <b>generate the most appropriate plant architectures for specific coordinates</b>.
 
 Our <b>backlog</b> (<i>draft</i>) is the following :
 
@@ -16,11 +16,12 @@ Our <b>backlog</b> (<i>draft</i>) is the following :
   </ol>
   <li>gather as much data as possible for these coordinates</li>
   <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
-    <li style="margin-left:2em">using ESA API : https://scihub.copernicus.eu/</li>
-    <li style="margin-left:2em">using other data - <i>TBD</i></li>
+    <li style="margin-left:2em">use ESA API : https://scihub.copernicus.eu/</li>
+    <li style="margin-left:2em">use other data - <i>TBD</i></li>
   </ol>
   <li>transform these data to local climate parameters</li>
   <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+    <li style="margin-left:2em">check existing open-source software like https://technology.nasa.gov/</li>
     <li style="margin-left:2em"><i>TBD</i></li>
   </ol>
   <li>use these local parameters to identify viable plants at these coordinates</li>
@@ -36,6 +37,7 @@ Our <b>backlog</b> (<i>draft</i>) is the following :
   </ol>
   <li>generate data for each architecture</li>
   <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+    <li style="margin-left:2em">check existing open-source software like https://dev.opencascade.org/about/projects_and_products</li>
     <li style="margin-left:2em">generate a 3D rendering of each architecture</li>
     <li style="margin-left:2em"><i>TBD</i></li>
   </ol>
