@@ -5,7 +5,7 @@
  *      Author: antony
  */
 
-#include "Coordinates.h"
+#include "FieldDescription/Coordinates.h"
 
 Coordinates::Coordinates() {
 	coordinatesAsString = "NO COORDINATES";
