@@ -27,6 +27,12 @@ Our <b>backlog</b> (<i>draft</i>) is the following :
   <li>use these local parameters to identify viable plants at these coordinates</li>
   <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
     <li style="margin-left:2em">get access to the right plants database (<i>in progress</i>)</li>
+    <ol style="list-style-type: lower-alpha; padding-bottom: 0;">
+      <li style="margin-left:4em">https://herbaria.plants.ox.ac.uk/bol/</li>
+      <li style="margin-left:4em">http://scratchpads.org/</li>
+      <li style="margin-left:4em">http://www.worldfloraonline.org/downloadData</li>
+      <li style="margin-left:4em">https://hortipedia.com/</li>
+    </ol>
     <li style="margin-left:2em"><i>TBD</i></li>
   </ol>
   <li>design optimized architectures using these plants</li>
