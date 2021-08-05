@@ -19,3 +19,11 @@ Plant::Plant(std::string name, const Position& position) {
 Plant::~Plant() {
 
 }
+
+Resources Plant::resourcesProduce() {
+	return plantResources;
+}
+
+void Plant::resourcesConsume(Resources resources) {
+	plantResources = resources;
+}

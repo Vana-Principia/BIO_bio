@@ -9,7 +9,9 @@
 #define INCLUDE_PLANT_H_
 
 #include <string>
+
 #include "Position.h"
+#include "Resources.h"
 
 class Plant {
 public:
@@ -17,9 +19,14 @@ public:
 	Plant(std::string plantName, const Position& plantPosition);
 	~Plant();
 
+	Resources resourcesProduce();
+	void resourcesConsume(Resources);
+
 private:
 	std::string plantName;
 	Position plantPosition;
+
+	Resources plantResources; //will evolve through time
 };
 
 
