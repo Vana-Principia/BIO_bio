@@ -1,4 +1,4 @@
-# Biobio
+# BIO_bio
 To get more information on our project, have a look at https://www.vanaprincipia.com.
 
 Feel free to contact us at contact@vanaprincipia.com (any help or advices are more than welcome!).
