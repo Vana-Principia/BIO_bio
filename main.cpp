@@ -8,9 +8,15 @@
 //	CURRENT VERSION : V0.002
 //	DATE : August 2021
 
+#include <Python.h>
+
 #include <iostream>
+#include <map>
 
 #include "Biobio/BIO_bio/BIO_bio.h"
+
+#include "Biobio/CSVReader/CSVReader.h"
+#include <Biobio/CSVReader/TempAlgorithms.h>
 
 #include "Biobio/FieldDescription/Coordinates.h"
 #include "Biobio/FieldDescription/LocalClimate.h"
@@ -26,6 +32,8 @@
 int main(int argc, char** argv) {
 
 	BIO_bio BIO_bio;
+
+	//std::string fieldCoordinates = "48.396591, 4.507757";
 
 	Coordinates* coordinates = BIO_bio.generateCoordinates(argv[1]);
 
@@ -56,6 +64,35 @@ int main(int argc, char** argv) {
 	BIO_bio.sendResultToClient(designs->configuration("all"), designs->associatedData("all"));
 	//results sent to client
 	//TODO could be detailed
+
+	//--------------- CSV PART ---------------
+
+	std::map<std::string,std::vector<std::pair<int,int>>> coordinatesOfPlants = getPlantsFromCSV("./csv/CelesteField.csv");
+
+    std::map<std::string, std::vector<std::pair<int,int>>>::iterator it;
+
+//    std::cout << "Number of species is " << coordinatesOfPlants.size() << std::endl;
+//    for (it = coordinatesOfPlants.begin(); it != coordinatesOfPlants.end(); it++) {
+//		std::cout << "Number of coordinates of " << it->first << " is " << it->second.size() << std::endl;
+//    }
+
+    generateCSVOfPlantsCoordinates(coordinatesOfPlants);
+
+	//----------------------------------------
+
+
+	//--------------- PYTHON PART ---------------
+
+	char filename[] = "./python/fieldDisplayer.py";
+	FILE* fp;
+
+	Py_Initialize();
+
+	fp = _Py_fopen(filename, "r");
+	PyRun_SimpleFile(fp, filename);
+	Py_Finalize();
+
+	//------------ END OF PYTHON PART -----------
 
 	return 0;
 }

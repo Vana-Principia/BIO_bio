@@ -1,0 +1,176 @@
+<!-- LIFEFORM-->
+<img src="../resources/imgs/icons/lifeform1.png" class="pointer ng-pristine ng-untouched ng-valid ng-empty" ng-model="criteria.dialogName[1]" ng-click="answer(1)" role="button" tabindex="0" aria-invalid="false"><br>tree
+<!--tree = 1-->
+<!--subshrub = 2-->
+<!--shrub = 3-->
+<!--climber = 4-->
+<!--perennial = 5-->
+<!--annual or biennial = 6-->
+<!--bulb or tuber = 7-->
+<!--grass = 8-->
+
+<!-- EXPOSURE-->
+<md-checkbox ng-model="criteria.exposure[1]" ng-true-value="1" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label" aria-label="full sun"><img src="../resources/imgs/icons/exposure1.png" class="ng-scope"></div></md-checkbox>
+<!--full sun = 1-->
+<!--half shade = 2-->
+<!--full shade = 3-->
+
+<!-- MOISTURE-->
+<md-checkbox ng-model="criteria.moisture[1]" ng-true-value="1" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label" aria-label="dry soil"><img src="../resources/imgs/icons/moisture1.png" class="ng-scope"></div></md-checkbox>
+<!--dry soil = 1-->
+<!--fresh soil = 2-->
+<!--moist soil = 3-->
+<!--wet soil = 4-->
+<!--aquatic plant = 5-->
+
+<!-- SOIL-->
+<md-checkbox ng-model="criteria.soil[1]" ng-true-value="1" tabindex="0" type="checkbox" role="checkbox" class="ng-pristine ng-untouched ng-valid ng-empty" aria-checked="false" aria-invalid="false"><div class="md-container md-ink-ripple" md-ink-ripple="" md-ink-ripple-checkbox=""><div class="md-icon"></div></div><div ng-transclude="" class="md-label" aria-label=""><img src="../resources/imgs/icons/soil1.png" class="ng-scope"></div></md-checkbox>
+<!--light soil = 1-->
+<!--medium soil = 2-->
+<!--heavy soil = 3-->
+<!--peaty soil = 4-->
+
+<!-- HARDINESS-->
+<md-slider flex="" ng-model="criteria.hardiness" step="1" min="1" max="10" aria-label="{&quot;1&quot;:&quot;<b>Zone 1: </b>below -45&amp;#176;C&quot;,&quot;2&quot;:&quot;Zone 2: down to -45&amp;#176;C&quot;,&quot;3&quot;:&quot;Zone 3: down to -40&amp;#176;C&quot;,&quot;4&quot;:&quot;Zone 4: down to -35&amp;#176;C&quot;,&quot;5&quot;:&quot;Zone 5: down to -29&amp;#176;C&quot;,&quot;6&quot;:&quot;Zone 6: down to -23&amp;#176;C&quot;,&quot;7&quot;:&quot;Zone 7: down to -18&amp;#176;C&quot;,&quot;8&quot;:&quot;Zone 8: down to -12&amp;#176;C&quot;,&quot;9&quot;:&quot;Zone 9: down to -7&amp;#176;C&quot;,&quot;10&quot;:&quot;Zone 10: only above at least 1&amp;#176;C&quot;,&quot;title&quot;:&quot;Hardiness&quot;}" class="ng-untouched ng-valid ng-isolate-scope flex ng-not-empty ng-dirty ng-valid-parse md-min" aria-valuemin="1" aria-valuenow="1" aria-valuemax="10" aria-invalid="false" style=""><div class="md-slider-wrapper" tabindex="0" role="slider" style="touch-action: pan-x;"><div class="md-slider-content"><div class="md-track-container"><div class="md-track"></div><div class="md-track md-track-fill" style="width: 0%;"></div><div class="md-track-ticks"></div></div><div class="md-thumb-container" style="left: 0%;"><div class="md-thumb"></div><div class="md-focus-thumb"></div><div class="md-focus-ring"></div><div class="md-sign"><span class="md-thumb-text">1</span></div><div class="md-disabled-thumb"></div></div></div></div></md-slider>
+<!--below -45°C = 1-->
+<!--down to -45°C = 2-->
+<!--down to -40°C = 3-->
+<!--down to -35°C = 4-->
+<!--down to -29°C = 5-->
+<!--down to -23°C = 6-->
+<!--down to -18°C = 7-->
+<!--down to -12°C = 8-->
+<!--down to -7°C = 9-->
+<!--above 1°C = 10-->
+
+<!-- FLOWER SHAPE-->
+<img src="../resources/imgs/icons/flower_shape1.png" class="pointer ng-pristine ng-untouched ng-valid ng-empty" ng-model="criteria.dialogName[1]" ng-click="answer(1)" role="button" tabindex="0" aria-invalid="false">
+<!--three-stellate = 1-->
+<!--cruciform = 2-->
+<!--five-stellate = 3-->
+<!--six-stellate = 4-->
+<!--many-stellate = 5-->
+<!--tubular = 6-->
+<!--salverform = 7-->
+<!--trumpet-shaped = 8-->
+<!--funnel-shaped = 9-->
+<!--cup-shaped = 10-->
+<!--campanulate = 11-->
+<!--recurved = 12-->
+<!--reflexed = 13-->
+<!--violet-shaped = 14-->
+<!--rosette = 15-->
+<!--pompon = 16-->
+<!--daffodil-shaped = 17-->
+<!--pitcher-shaped = 18-->
+<!--orchid-shaped = 19-->
+<!--slipper-shaped = 20-->
+<!--iris flowers = 21-->
+<!--labioate = 22-->
+<!--pea-shaped = 23-->
+<!--spathe = 24-->
+<!--cyathium = 25-->
+<!--heart-shaped = 26-->
+<!--thistle-shaped = 27-->
+<!--globose = 28-->
+
+<!-- INFLORESCENCE-->
+<img ng-src="../resources/imgs/icons/petals1.png" ng-click="createDialog('petals', 3)" class="pointer HP56" role="button" tabindex="0" src="../resources/imgs/icons/petals1.png">
+<!--solitary = 1-->
+<!--cluster = 2-->
+<!--head = 3-->
+<!--umbel = 4-->
+<!--panicle = 5-->
+<!--spike = 6-->
+<!--spadix = 7-->
+<!--raceme = 8-->
+<!--corymb = 9-->
+<!--cincinnus = 10-->
+<!--double cyme = 11-->
+<!--cymose cormy = 12-->
+<!--cyme = 13-->
+<!--compound umbel = 14-->
+<!--stalkless clusters = 15-->
+<!--capituli = 16-->
+<!--pleiochasial cyme = 17-->
+<!--dichasial cyme = 18-->
+
+<!-- FRUIT-->
+<img ng-src="../resources/imgs/icons/fruit1.png" ng-click="createDialog('fruit', 24)" class="pointer HP56" role="button" tabindex="0" src="../resources/imgs/icons/fruit1.png">
+<!--follicle = 1-->
+<!--septicidal capsule = 2-->
+<!--loculicidal capsule = 3-->
+<!--pyxis = 4-->
+<!--poricidal capsule = 5-->
+<!--legume = 6-->
+<!--silique = 7-->
+<!--silicle = 8-->
+<!--berry = 9-->
+<!--receptacle = 10-->
+<!--nut = 11-->
+<!--samara = 12-->
+<!--nutlet = 13-->
+<!--caryopsis = 14-->
+<!--achene = 15-->
+<!--schizocarp = 16-->
+<!--loment = 17-->
+<!--silicule = 18-->
+<!--schizocarp = 19-->
+<!--undefined = 20-->
+<!--aggregate drupes = 21-->
+<!--pome = 22-->
+<!--hip = 23-->
+<!--cone = 24-->
+
+<!-- LEAF SHAPE-->
+<img ng-src="../resources/imgs/icons/leaf_shape24.png" ng-click="createDialog('leaf_shape', 24)" class="pointer HP56" role="button" tabindex="0" src="../resources/imgs/icons/leaf_shape24.png">
+<!--orbicular = 1-->
+<!--elliptic = 2-->
+<!--ovate = 3-->
+<!--obovate = 4-->
+<!--truncate = 5-->
+<!--acicular = 6-->
+<!--linear = 7-->
+<!--ovate-lanceolate = 8-->
+<!--lanceolate = 9-->
+<!--oblanceolate = 10-->
+<!--pointed = 11-->
+<!--acute = 12-->
+<!--falcate = 13-->
+<!--spatulate = 14-->
+<!--obcordate = 15-->
+<!--cordate = 16-->
+<!--rhomboid = 17-->
+<!--deltoid = 18-->
+<!--sagittate = 19-->
+<!--hastate = 20-->
+<!--peltate = 21-->
+<!--flabellate = 22-->
+<!--reniform = 23-->
+<!--palmately lobed = 24-->
+
+<!-- LEAF DIVISION-->
+<img ng-src="../resources/imgs/icons/leaf_division1.png" ng-click="createDialog('leaf_division', 7)" class="pointer HP56" role="button" tabindex="0" src="../resources/imgs/icons/leaf_division1.png">
+<!--simple = 1-->
+<!--ternate = 2-->
+<!--digitate = 3-->
+<!--paripinnate = 4-->
+<!--imparipinnate = 5-->
+<!--bipinnate = 6-->
+<!--tripinnate = 7-->
+
+<!-- LEAF ARRANGEMENT-->
+<img ng-src="../resources/imgs/icons/leaf_arrangement1.png" ng-click="createDialog('leaf_arrangement', 7)" class="pointer HP56" role="button" tabindex="0" src="../resources/imgs/icons/leaf_arrangement1.png">
+<!--opposite = 1-->
+<!--alternate = 2-->
+<!--decussate = 3-->
+<!--rosette = 4-->
+<!--whorled = 5-->
+<!--distichous = 6-->
+<!--basal = 7-->
+
+<!-- LEAF RETENTION-->
+<img ng-src="../resources/imgs/icons/leaf_retention1.png" src="../resources/imgs/icons/leaf_retention1.png">
+<!--deciduos = 1-->
+<!--semi-deciduos = 2-->
+<!--evergreen = 3-->

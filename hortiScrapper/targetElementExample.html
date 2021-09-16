@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="fr">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Hortipedia - Abelia biflora
+  </title>
+  <meta content="Abelia biflora est un arbuste. Abelia biflora est une espèce du genre Abelia, qui comprend environ 39 à 45 espèces et appartient à la famille des Caprifoliaceae (Caprifoliacées)." name="description"/>
+  <link href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Serif" rel="stylesheet" type="text/css"/>
+  <link href="../resources/css/style.css" rel="stylesheet" type="text/css">
+   <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet" type="text/css">
+    <script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js">
+    </script>
+    <script>
+     window.googletag = window.googletag || {cmd: []};
+                        googletag.cmd.push(function() {
+                                googletag.defineSlot('/2182278/_leaderboard', [728, 90], 'div-gpt-ad-1582622895684-0').addService(googletag.pubads());
+                                googletag.defineSlot('/2182278/_skyscraper', [[120, 600], [160, 600]], 'div-gpt-ad-1582626335556-0').addService(googletag.pubads());
+                                googletag.defineSlot('/2182278/_affiliates_gt_md', [768,60], 'div-gpt-ad-1582736396028-0').addService(googletag.pubads());
+                                googletag.pubads().enableSingleRequest();
+                                googletag.enableServices();
+                        });
+    </script>
+   </link>
+  </link>
+ </head>
+ <body class="body-grey">
+  <div id="top" ng-app="HortipediaApp" ng-cloak="" ng-controller="AppCtrl">
+   <!-- app -->
+   <div layout="column">
+    <!-- layout FRAME -->
+    <md-toolbar class="HPToolbar md-whiteframe-3dp">
+     <!-- layout TOOLBAR -->
+     <div class="md-toolbar-tools">
+      <md-button aria-label="{{msg.home.title}}" hide="" ng-href="{{msg.home.anchor}}" show-gt-sm="">
+       <md-icon>
+        home
+       </md-icon>
+      </md-button>
+      <span flex="">
+      </span>
+      <div class="HPPageTitle" hide="" show-gt-sm="">
+       <h2>
+        Abelia biflora
+       </h2>
+      </div>
+      <span flex="">
+      </span>
+      <div hide-gt-sm="" layout="row">
+       <!-- layout MENU xs, sm -->
+       <md-autocomplete md-item-text="item.name" md-items="item in searchAutocomplete(searchText)" md-min-length="2" md-search-text="searchText" md-selected-item="selectedItem" md-selected-item-change="selectedItemChange(item)" ng-show="hiddenSearchInput" placeholder="{{msg.search}}">
+        <md-item-template>
+         <span md-highlight-text="searchText" ng-bind-html="item.name">
+         </span>
+        </md-item-template>
+       </md-autocomplete>
+       <md-button ng-click="toggleSearchInput()">
+        <md-icon>
+         search
+        </md-icon>
+       </md-button>
+       <md-menu>
+        <md-button ng-click="openMenu($mdOpenMenu, $event)">
+         <md-icon>
+          menu
+         </md-icon>
+        </md-button>
+        <md-menu-content>
+         <md-menu-item>
+          <md-button aria-label="{{msg.home.title}}" ng-href="{{msg.home.anchor}}">
+           <md-icon>
+            home
+           </md-icon>
+          </md-button>
+         </md-menu-item>
+         <md-menu-item>
+          <md-button aria-label="{{msg.database.title}}" ng-href="{{msg.database.anchor}}">
+           <span ng-bind-html="msg.database.title">
+           </span>
+          </md-button>
+         </md-menu-item>
+         <md-menu-item>
+          <md-button aria-label="{{msg.categories.title}}" ng-href="{{msg.categories.anchor}}">
+           <span ng-bind-html="msg.categories.title">
+           </span>
+          </md-button>
+         </md-menu-item>
+        </md-menu-content>
+       </md-menu>
+      </div>
+      <!-- /layout MENU xs, sm -->
+      <div hide="" layout="row" show-gt-sm="">
+       <!-- layout MENU gt-sm -->
+       <md-button aria-label="{{msg.database.title}}" ng-href="{{msg.database.anchor}}">
+        <span ng-bind-html="msg.database.title">
+        </span>
+       </md-button>
+       <md-button aria-label="{{msg.categories.title}}" ng-href="{{msg.categories.anchor}}">
+        <span ng-bind-html="msg.categories.title">
+        </span>
+       </md-button>
+       <md-autocomplete md-item-text="item.name" md-items="item in searchAutocomplete(searchText)" md-min-length="3" md-search-text="searchText" md-selected-item="selectedItem" md-selected-item-change="selectedItemChange(item)" placeholder="{{msg.search}}">
+        <md-item-template>
+         <span md-highlight-text="searchText" ng-bind-html="item.name">
+         </span>
+        </md-item-template>
+       </md-autocomplete>
+      </div>
+      <!-- layout MENU gt-sm -->
+     </div>
+    </md-toolbar>
+    <!-- /layout TOOLBAR -->
+    <md-content class="md-padding">
+     <!-- md-content holding BANNER and MIDDLE -->
+     <div hide="" layout="row" show-gt-xs="">
+      <!-- layout BANNER -->
+      <div flex="20" layout="column" layout-align="start center">
+       <a ng-href="{{msg.home.anchor}}">
+        <img src="../resources/imgs/_neu_globus_200px_transparent.png" width="126px"/>
+       </a>
+      </div>
+      <div flex="80" layout="column" layout-align="space-around start">
+       <!--<div class="HPBanner">banner</div>-->
+       <!-- /2182278/_leaderboard -->
+       <div id="div-gpt-ad-1582622895684-0" style="width: 728px; height: 90px;">
+        <script>
+         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582622895684-0'); });
+        </script>
+       </div>
+      </div>
+     </div>
+     <!-- /layout BANNER -->
+     <div class="HPMiddle" layout="row">
+      <!-- layout MIDDLE, holding LEFT, MAIN, and SKYSCRAPER -->
+      <!-- end header.php -->
+      <div flex="20" hide="" layout="column" layout-align="start end" show-gt-sm="" style="margin-top:15px;width:250px;margin-right:-15px;z-index:1;">
+       <!-- layout LEFT -->
+       <div class="md-whiteframe-1dp" layout="column" style="background-color:white;width:250px;">
+        <div layout="column" layout-align="start center" style="margin:10px 0">
+         <b>
+          {{hortibox.title}}
+         </b>
+         <i>
+          {{hortibox.author}}
+         </i>
+         <div>
+          <md-tooltip>
+           <span ng-bind-html="msg.author + ': ' + images.hortibox.author + ', ' + msg.license + ': ' + images.hortibox.license">
+           </span>
+          </md-tooltip>
+          <img src="../resources/imgs/thumb/{{images.hortibox.directory}}/{{images.hortibox.title}}/240w-{{images.hortibox.title}}" style="width:250px;margin-top:10px"/>
+         </div>
+        </div>
+        <md-divider class="md-padding" ng-show="noHortiboxImage">
+        </md-divider>
+        <div layout="row" layout-align="space-around center">
+         <!-- growth -->
+         <div>
+          <md-tooltip>
+           <span ng-bind-html="hortibox.msg.lifeform">
+           </span>
+          </md-tooltip>
+          <img src="../resources/imgs/icons/lifeform{{hortibox.lifeform}}.png"/>
+         </div>
+         <div>
+          <md-tooltip>
+           <span ng-bind-html="hortibox.msg.habitus">
+           </span>
+          </md-tooltip>
+          <img src="../resources/imgs/icons/habitus{{hortibox.habitus}}.png"/>
+         </div>
+         <div>
+          <md-tooltip>
+           <span ng-bind-html="hortibox.msg.plantUse">
+           </span>
+          </md-tooltip>
+          <img src="../resources/imgs/icons/plant_use{{hortibox.plantUse}}.png"/>
+         </div>
+        </div>
+        <div layout="row" layout-align="center center">
+         <md-tooltip>
+          <span ng-bind-html="hortibox.msg.height">
+          </span>
+         </md-tooltip>
+         <div>
+          <img src="../resources/imgs/icons/height_large.png"/>
+         </div>
+         <p>
+          {{hortibox.height}}
+         </p>
+        </div>
+        <!-- /growth -->
+        <md-divider class="HPDivider">
+        </md-divider>
+        <div layout="column">
+         <!-- growing conditions -->
+         <div layout-padding="">
+          <b>
+           {{hortibox.msg.headerCultivation}}
+          </b>
+         </div>
+         <div layout="row" layout-align="space-around center">
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.exposure">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/exposure{{hortibox.exposure}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.moisture">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/moisture{{hortibox.moisture}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.soil">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/soil{{hortibox.soil}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.hardiness">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/hardiness{{hortibox.hardiness}}.png"/>
+          </div>
+         </div>
+        </div>
+        <!-- /growing conditions -->
+        <md-divider class="HPDivider">
+        </md-divider>
+        <div layout="column">
+         <!-- leaf -->
+         <div layout-padding="">
+          <b ng-bind-html="hortibox.msg.headerLeaves">
+          </b>
+         </div>
+         <div layout="row" layout-align="space-around center">
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.leafShape">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/leaf_shape{{hortibox.leafShape}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.leafDivision">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/leaf_division{{hortibox.leafDivision}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.leafArrangement">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/leaf_arrangement{{hortibox.leafArrangement}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.leafRetention">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/leaf_retention{{hortibox.leafRetention}}.png"/>
+          </div>
+         </div>
+         <div ng-if="hortibox.autumnColour != '_NA'">
+          <div style="background-image:linear-gradient(to right, {{hortibox.autumnColour}});width:240px;margin-left:5px">
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.autumnColour">
+            </span>
+           </md-tooltip>
+          </div>
+         </div>
+        </div>
+        <!-- /leaf -->
+        <md-divider class="HPDivider">
+        </md-divider>
+        <div layout="column" style="margin-left:5px">
+         <!-- flower -->
+         <div layout-padding="">
+          <b ng-bind-html="hortibox.msg.headerFlowers">
+          </b>
+         </div>
+         <div layout="row" layout-align="space-around center">
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.flowerShape">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/flower_shape{{hortibox.flowerShape}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.inflorescence">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/inflorescence{{hortibox.inflorescence}}.png"/>
+          </div>
+          <div>
+           <md-tooltip>
+            <span ng-bind-html="hortibox.msg.fruit">
+            </span>
+           </md-tooltip>
+           <img src="../resources/imgs/icons/fruit{{hortibox.fruit}}.png"/>
+          </div>
+         </div>
+         <div layout="row">
+          <div ng-repeat="block in hortibox.floweringPeriod">
+           <div layout="row" layout-align="space-around center" ng-if="block.type == 0" style="color:#bababa;width:{{block.px}}px">
+            <div ng-repeat="no in block.nos">
+             {{no}}
+            </div>
+           </div>
+           <div class="md-whiteframe-2dp" layout="row" layout-align="space-around center" ng-if="block.type == 1" style="background-color:{{hortibox.flowerColour}};width:{{block.px}}px">
+            <md-tooltip>
+             <span ng-bind-html="hortibox.msg.flowers">
+             </span>
+            </md-tooltip>
+            <div ng-repeat="no in block.nos">
+             {{no}}
+            </div>
+           </div>
+           <div layout="row" layout-align="space-around center" ng-if="block.type == 2" style="color:black;width:{{block.px}}px">
+            <md-tooltip>
+             <span ng-bind-html="hortibox.msg.flowers">
+             </span>
+            </md-tooltip>
+            <div ng-repeat="no in block.nos">
+             {{no}}
+            </div>
+           </div>
+           <div ng-if="block.type == 3" style="background-color:{{hortibox.flowerColour}};width:240px">
+            <md-tooltip>
+             <span ng-bind-html="hortibox.msg.flowers">
+             </span>
+            </md-tooltip>
+           </div>
+          </div>
+         </div>
+        </div>
+        <!-- /flower -->
+        <md-divider class="HPDivider">
+        </md-divider>
+        <div layout="column">
+         <!-- taxonomy -->
+         <div layout-padding="">
+          <b>
+           {{hortibox.msg.headerTaxonomy}}
+          </b>
+         </div>
+         <div layout="row" layout-padding="">
+          <div layout="column">
+           <div ng-repeat="(rank, name) in hortibox.taxonomy">
+            {{rank}}:
+           </div>
+          </div>
+          <div layout="column">
+           <div ng-repeat="name in hortibox.taxonomy">
+            {{name}}
+           </div>
+          </div>
+         </div>
+        </div>
+        <!-- /taxonomy -->
+       </div>
+       <!--<div ng-bind-html="affiliatesLeft"></div>-->
+      </div>
+      <!-- /layout LEFT -->
+      <div flex="" flex-gt-sm="60" id="main" layout="column">
+       <!-- layout MAIN / CATEGORIES-->
+       <div class="md-whiteframe-1dp md-padding HPMain">
+        <!-- layout ARTICLE -->
+        <md-button aria-label="{{msg.showHortibox}}" class="md-raised" hide="" ng-bind-html="msg.showHortibox" ng-click="hortiboxDialogXS()" show-xs="">
+        </md-button>
+        <md-button aria-label="{{msg.showHortibox}}" class="md-raised" hide="" ng-bind-html="msg.showHortibox" ng-click="hortiboxDialogSM()" show-sm="">
+        </md-button>
+        <!--<md-button hide show-xs class="md-raised" ng-click="hortiboxDialogXS()" aria-label="hortibox" ng-bind-html="msg.showHortibox"></md-button>-->
+        <div ng-bind-html="article.intro">
+        </div>
+        <h2 ng-bind-html="article.naming.header">
+        </h2>
+        <div ng-bind-html="article.naming.text">
+        </div>
+        <h3 ng-bind-html="article.naming.common.header">
+        </h3>
+        <ul>
+         <li ng-repeat="item in article.naming.common.list">
+          {{item}}
+         </li>
+        </ul>
+        <h2>
+         {{article.taxonomy.header}}
+        </h2>
+        <div ng-bind-html="article.taxonomy.text">
+        </div>
+        <h3>
+         {{article.synonyms.header}}
+        </h3>
+        <ul>
+         <li ng-repeat="item in article.synonyms.text">
+          {{item}}
+         </li>
+        </ul>
+        <md-button ng-click="openSynonymDialog()" ng-show="showAllSyns">
+         {{msg.showAllSynonyms}} ({{synsCount}})
+        </md-button>
+        <div>
+         <div style="float:left;margin-right:20px">
+          <div ng-show="showImageContainer">
+           <!--article images -->
+           <div hide-gt-xs="">
+            <md-card class="pointer" ng-repeat="item in articleImages" style="width:120px">
+             <img ng-click="openImageDialog(item)" ng-src="../resources/imgs/thumb/{{item.directory}}/{{item.title}}/120h-{{item.title}}"/>
+             <md-card-content>
+              {{item.name}}
+             </md-card-content>
+            </md-card>
+           </div>
+           <div class="HPImagesLeft" flex="none" hide="" layout="column" show-md="" show-sm="">
+            <div class="HPImage" md-whiteframe="1" ng-repeat="item in articleImages">
+             <img ng-click="openImageDialog(item)" src="../resources/imgs/thumb/{{item.directory}}/{{item.title}}/120w-{{item.title}}"/>
+            </div>
+           </div>
+           <div class="HPImagesLeft" flex="none" hide="" layout="column" show-gt-md="">
+            <div class="HPImage" md-whiteframe="1" ng-repeat="(key, item) in articleImages">
+             <img ng-click="openImageDialog(item)" src="../resources/imgs/thumb/{{item.directory}}/{{item.title}}/180w-{{item.title}}" width="180px"/>
+            </div>
+           </div>
+          </div>
+          <!-- /article images -->
+          <h2 ng-bind-html="article.characteristics.header">
+          </h2>
+          <div ng-repeat="section in articleCharacteristics">
+           <h3 ng-bind-html="section.header">
+           </h3>
+           <p ng-bind-html="section.text">
+           </p>
+          </div>
+          <div>
+           <h2 ng-bind-html="article.distribution.header">
+           </h2>
+           <p ng-bind-html="article.distribution.text">
+           </p>
+           <p ng-bind-html="article.protection.text">
+           </p>
+          </div>
+          <div>
+           <h2 ng-bind-html="article.cultivation.header">
+           </h2>
+           <div ng-repeat="section in articleCultivation">
+            <h3 ng-bind-html="section.header">
+            </h3>
+            <p ng-bind-html="section.text">
+            </p>
+           </div>
+          </div>
+          <h2 ng-bind-html="article.cultivars.header">
+          </h2>
+          <div layout="row" layout-wrap="" ng-show="showCultivars">
+           <md-card class="pointer" ng-repeat="item in cultivarImages">
+            <img ng-click="openImageDialog(item)" ng-src="../resources/imgs/thumb/{{item.directory}}/{{item.title}}/120h-{{item.title}}"/>
+            <md-card-content>
+             {{item.name}}
+            </md-card-content>
+           </md-card>
+          </div>
+          <h2 ng-bind-html="article.toxicity.header">
+          </h2>
+          <p ng-bind-html="article.toxicity.text">
+          </p>
+          <h2 ng-bind-html="article.non_commercial.header">
+          </h2>
+          <ul>
+           <li ng-repeat="item in article.non_commercial.text">
+            <a href="{{item.anchor}}" target="_blank">
+             {{hortibox.title}}
+            </a>
+            <span ng-bind-html="item.name">
+            </span>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <!-- /layout ARTICLE -->
+       <div class="md-whiteframe-1dp" layout="column" ng-hide="hideAffiliates" style="margin-top:20px;background-color:white">
+        <div layout="row" layout-align="space-around center" layout-padding="" ng-bind-html="affiliatesBottom">
+        </div>
+       </div>
+       <div style="margin-top:20px;padding-left:20px;">
+        <!-- layout CATEGORIES -->
+        <a href="{{msg.category}}_{{item.anchor}}" ng-repeat="item in article.categories">
+         <md-button aria-label="{{item.title}}" class="md-raised" ng-bind-html="item.title">
+         </md-button>
+        </a>
+       </div>
+       <!-- /layout CATEGORIES -->
+      </div>
+      <!-- /layout MAIN / CATEGORIES -->
+      <!-- start footer.php -->
+      <div flex="20" hide="" layout="column" layout-align="start center" show-gt-sm="">
+       <!-- layout SKYSCRAPER -->
+       <!--<div hide show-md class="HPSkyscraper">skyscraper</div>
+                                                        <div hide show-gt-md class="HPWideSkyscraper">wide skyscraper</div>-->
+       <!-- /2182278/_skyscraper -->
+       <div id="div-gpt-ad-1582626335556-0">
+        <script>
+         googletag.cmd.push(function() { googletag.display('div-gpt-ad-1582626335556-0'); });
+        </script>
+       </div>
+      </div>
+      <!-- /layout SKYSCRAPER -->
+     </div>
+     <!-- /layout MIDDLE, holding LEFT, MAIN, and SKYSCRAPE -->
+    </md-content>
+    <!-- /md-content holding BANNER and MIDDLE -->
+    <footer layout="row" layout-align="center center">
+     <!-- layout FOOTER -->
+     <p class="md-padding">
+      <a href="{{msg.privacy.anchor}}">
+       <span ng-bind-html="msg.privacy.title">
+       </span>
+      </a>
+      |
+      <a href="{{msg.disclaimer.anchor}}">
+       <span ng-bind-html="msg.disclaimer.title">
+       </span>
+      </a>
+     </p>
+    </footer>
+    <!-- /layout FOOTER -->
+   </div>
+   <!-- /layout FRAME -->
+  </div>
+  <!-- /app -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-sanitize.min.js">
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js">
+  </script>
+  <script data-cfasync="false" src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js">
+  </script>
+  <script src="../resources/general_msg_fr.js">
+  </script>
+  <script src="../resources/js/hortipedia.js">
+  </script>
+  <script src="../resources/js/plants.js">
+  </script>
+  <script>
+   window.cookieconsent.initialise({
+                                "palette": {
+                                        "popup": {
+                                                "background": "#edeff5",
+                                                "text": "#838391"
+                                                },
+                                                "button": {
+                                                "background": "#4b81e8"
+                                                }
+                                },
+                                "theme": "edgeless",
+                                "content": {
+                                        "message": msg.cookieDisclaimerText,
+                                        "dismiss": "OK",
+                                        "allow": msg.cookieDisclaimerAccept,
+                                        "href": msg.privacy.anchor,
+                                        "link": msg.cookieDisclaimerMoreInfo
+                                }
+                        });
+  </script>
+  <script>
+   var app = angular.module('HortipediaApp', ['ngMaterial', 'ngAnimate', 'ngSanitize', 'ngMessages']);
+                        app.config(function($mdThemingProvider) {
+                                $mdThemingProvider.theme('default')
+                                        .primaryPalette('green')
+                                        .accentPalette('light-blue')
+                                        .warnPalette('red');
+                        });
+                        app.controller('AppCtrl', function($scope, $mdDialog, $filter, $http, $window, $httpParamSerializerJQLike, $anchorScroll, $location, $mdMedia, $sce) {
+                                $scope.msg = msg;
+                                $scope.content = {"hortibox":{
+									"author":"Turcz.",
+									"familia":"Caprifoliaceae",
+									"lifeform":"3",
+									"habitus":"_NA",
+									"plantUse":"_NA",
+									"height":"N\/A - N\/A cm",
+									"exposure":"1",
+									"moisture":"3",
+									"soil":"2",
+									"hardiness":"8",
+									"leafShape":"_NA",
+									"leafDivision":"1",
+									"leafArrangement":"1",
+									"leafRetention":"1",
+									"autumnColour":"_NA",
+									"floweringPeriod":"",
+									"flowerColour":"",
+									"flowerShape":"_NA",
+									"inflorescence":"_NA",
+									"fruit":"10",
+									"tax":
+										{"ordo":"dipsacales",
+										"superordo":"dipsacanae",
+										"subclassis":"cornidae",
+										"classis":"rosopsida",
+										"subdivisio":"magnoliophytina",
+										"divisio":"magnoliophyta",
+										"familia":"Caprifoliaceae"},
+									"taxonomy":
+										{"Divisio":"Magnoliophyta",
+										"Subdivisio":"Magnoliophytina",
+										"Classis":"Rosopsida",
+										"Subclassis":"Cornidae",
+										"Superordo":"Dipsacanae",
+										"Ordo":"Dipsacales",
+										"Familia":"Caprifoliaceae"},
+									"msg":
+										{"lifeform":"Arbuste",
+										"habitus":"Stature: N\/A",
+										"plantUse":"Utilisation: N\/A",
+										"height":"Hauteur",
+										"exposure":"soleil",
+										"moisture":"sols mouilleux",
+										"soil":"sols moyens",
+										"hardiness":"Zone 8<br\/>jusq'&agrave -12&#176;C",
+										"leafShape":"",
+										"leafDivision":"Simples",
+										"leafArrangement":"Oppos&eacute;es",
+										"leafRetention":"Caduques",
+										"autumnColour":"",
+										"flowers":"floraison: N\/A, couleur des fleurs: N\/A",
+										"flowerShape":"",
+										"inflorescence":"inflorescence: N\/A",
+										"fruit":"Drupes",
+										"headerCultivation":"Emplacement",
+										"headerLeaves":"Feuilles",
+										"headerFlowers":"Fleurs",
+										"headerFruits":"Fruit",
+										"headerTaxonomy":"Taxonomie",
+										"headerGrowth":"Croissance"},
+									"hortibox":
+										{"id":"117",
+										"url":"abelia_biflora",
+										"familia_id":"1159",
+										"height_min":null,
+										"height_max":null,
+										"bluetenfarbe":null,
+										"frosthaerte":"8",
+										"verwendung":null,
+										"bildlink":null,
+										"sonstiges":null,
+										"herkunft":"W-CN",
+										"lebensform":"3",
+										"kronenform":null,
+										"blattgliederung":"1",
+										"blattform":null,
+										"blatt":"1",
+										"blattansatz":"2",
+										"blattrand":"1",
+										"blattnerven":"1",
+										"nadeln":null,
+										"blattstand":"1",
+										"wuchsform":null,
+										"bluetenform":null,
+										"bluetenhabitus":null,
+										"bluete":"1",
+										"knospenanordnung":null,
+										"herbstfaerbung":null,
+										"standort":"1",
+										"bluetezeit":null,
+										"bodenart":"4|5",
+										"bodenfeuchte":"3",
+										"fruchtform":"10"},
+									"title":"Abelia biflora"},
+									"article":{"intro":"Abelia biflora est un arbuste.","naming":{"header":"D&eacute;nomination","text":"Abelia biflora a &eacute;t&eacute; d&eacute;crit en 1837 par Nicolai Stepanowitsch Turczaninow et le nom a &eacute;t&eacute; validement publi&eacute;."},"taxonomy":{"header":"Taxonomie","text":"Abelia biflora est une esp&egrave;ce du genre Abelia, qui comprend environ 39 &agrave; 45 esp&egrave;ces et appartient &agrave; la famille des Caprifoliaceae (Caprifoliac\u00e9es). L'esp&egrave;ce type du genre est <a href=\"Abelia_chinensis\">Abelia chinensis<\/a>."},"synonyms":{"header":"Synonymes","text":["Abelia biflora f. minor","Abelia biflora var. alpina","Abelia biflora var. coreana","Abelia biflora var. minor","Abelia coreana","Abelia coreana var. insularis","Abelia davidii","Abelia insularis","Abelia shikokiana"]},"characteristics":{"header":"Caract&eacute;ristiques"},"leaves":{"header":"Feuilles","text":"Abelia biflora est une plantes &agrave; feuilles caduques. Les feuilles sont verte fonc&eacute;es, simples et oppos&eacute;es. Elles sont petiol&eacute;es &agrave; bord entier et &agrave; nervure arqu&eacute;e."},"flowers_and_fruits":{"header":"Fleurs et Fruits","text":"<br\/>Les arbustes forment des drupes."},"distribution":{"header":"Distribution","text":"Abelia biflora provient de l'ouest de la Chine."},"cultivation":{"header":"Cultivation"},"location":{"header":"Emplacement","text":"Les arbustes pr&eacute;f&egrave;rent un emplacement ensoleill&eacute; sur des sols humides. Le substrat doit &ecirc;tre limono-sableux ou limono-graveleux. Les plantes supportent des temp&eacute;ratures jusqu'&aacute; -12&#176;C."},"categories":[{"title":"Abelia","anchor":"Abelia"},{"title":"Caprifoliaceae","anchor":"Caprifoliaceae"},{"title":"Arbustes","anchor":"Arbustes"}]},"images":{"hortibox":[],"article":[],"cultivars":[],"videos":[]}};
+                                $scope.pageType = {"type":"plant", "affiliates":$scope.content.article.categories};
+                                plantsEx($scope, $mdDialog, $location, $window, $mdMedia);hortipediaEx($scope, $window, $mdDialog, $http, $sce, $mdMedia);
+                        });
+  </script>
+  <script src="../resources/search_fr.js">
+  </script>
+ </body>
+</html>

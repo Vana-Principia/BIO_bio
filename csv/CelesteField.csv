@@ -1,0 +1,84 @@
+Numéro;Espèce;Nom scientifique;Coordonnées précises (oui / non);Coordonnées;Remarques
+1;Origan;Origanum vulgare;non;; 
+2;Fromental;Arrhenatherum elatius;non;;Partout cette merde !
+3;Érable champêtre;Acer campestre;oui;(38,19) ; 
+4;Hygrophoraceae;Hygrophoraceae;non;;Champignons
+5;Centaurée jacée;Centaurea jacea;non;; 
+6;Verge d'or du Canada;Solidago canadensis;non;; 
+7;Marguerite commune;Leucanthemum vulgare;non;; 
+8;Vinettier;Berberis vulgaris;oui;(4,2) ; 
+9;Buis commun;Buxus sempervirens;oui;(4,3) ; 
+10;Euphorbe à têtes jaune d’or;Euphorbia flavicoma;non;; 
+11;Clématite des haies;Cematis vitalba;oui;(4,3) ; 
+12;Noisetier;Corylus avellana;oui;(4,4) (2,8) (2,9) (2,10) (2,11) (2,12) (2,13) (2,14) (2,15) (14,16) ; 
+13;Forsythia pleureur;Forsythia suspensa;oui;(4,4) ; 
+14;Vergerette annuelle;Erigeron annuus;non;; 
+15;Althea;Hibiscus syriacus;oui;(1,6) (4,7) ; 
+16;Fraisier des bois;Fragaria vesca;non;; 
+17;Gesse des prés;Lathyrus pratensis;non;; 
+18;Ronce bleue;Rubus caesius;non;; 
+19;Bois de sainte-lucie;Prunus mahaleb;oui;(4,6) ; 
+20;Caille-lait blanc;Galium mollugo;non;; 
+21;Renoncule âcre;Ranunculus acris;non;; 
+22;Pommier sauvage;Malus sylvestris;non;; 
+23;Lotier des marais;Lotus pedunculatus;non;; 
+24;Lierre grimpant;Hedera helix;non;; 
+25;Rosier des champs;Rosa arvensis;non;; 
+26;Grand plantain;Plantago major;non;; 
+27;Scabieuse colombaire;Scabiosa columbaria;non;; 
+28;Knautie des champs;Knautia arvensis;non;; 
+29;Prunier;Prunus domestica;oui;(19,13) (14,16) (22,2) (22,3) (22,5) (24,13) (27,3) (26,11) (28,14) (34,3) (32,4) (33,5) (32,8) (33,11) (34,16) (38,2) (37,6) (37,14) (41,1) (42,1) (43,2) (42,4) (43,6) (44,8) (54,8) (57,8) (51,11) ;30 pruniers (peut être des merisiers dans la liste) x2 en (27,3) et x3 en (42,4)
+30;Épine noire;Prunus spinosa;non;; 
+31;Géranium à feuilles découpées;Geranium dissectum;non;; 
+32;Panais;Pastinaca sativa;non;; 
+33;Plantain moyen;Plantago media;non;; 
+34;Myrobolan;Prunus cerasifera;non;; 
+35;Poirier;Pyrus communis;non;; 
+36;Salsifis des prés;Tragopogon pratensis;non;; 
+37;Merisier;Prunus avium;oui;(33,7) ;Peut être confondu avec le prunier
+38;Néflier;Mespilus germanica;oui;(32,16) ; 
+39;Gaillet blanc;Galium album;non;; 
+40;Rosier des chiens;Rosa canina;non;; 
+41;Primevère officinale;Primula veris;non;; 
+42;Cognassier;Cydonia oblonga;non;; 
+43;Orchis bouc;Himantoglossum hircinum;non;; 
+44;Vigne;Vitis vinifera;oui;(41,2) (54,2) ; 
+45;Carottes sauvages;Daucus carota;non;; 
+46;Cirse des champs;Cirsium arvense;non;; 
+47;Mûrier;Rubus ulmifolius;non;; 
+48;Géranium colombin;Geranium columbinum;non;; 
+49;Séneçon commun;Senecio vulgaris;non;; 
+50;Petite bardane;Arctium minus;oui;(45,1) ;Potager
+51;Armoise commune;Artemisia vulgaris;non;; 
+52;Pin sylvestre;Pinus sylvestris;oui;(47,1) ; 
+53;Ciboulette;Allium schoenoprasum;oui;(45,1) ;Potager
+54;Ail doré;Allium moly;oui;(45,1) ;Potager
+55;Luzerne lupuline;Medicago lupulina;oui;(45,1) ;Potager
+56;Thym commun;Thymus vulgaris;oui;(45,1) ;Potager
+57;Herbe de la Saint-jean;Hypericum perforatum;non;; 
+58;Hellébore vert;Helleborus viridis;non;; 
+59;Iris bâtard;Iris spuria;non;; 
+60;Seringa commun;Philadelphus coronarius;non;; 
+61;Lilas commun;Syringa vulgaris;oui;(55,2) ;x4
+62;Laurier-cerise;Prunus laurocerasus;oui;(51,7) ; 
+63;Mahonia faux houx;Berberis aquifolium;oui;(54,6) ; 
+64;Géranium herbe à robert;Gernium robertianum;non;; 
+65;Houx;Ilex aquifolium;oui;(54,16) ;x2
+66;Centaurée noire;Centaurea nigra;non;; 
+67;Lysimaque ponctuée;Lysimachia punctata;non;; 
+68;Trèfle violet;Trifolium pratense;non;; 
+69;Oseille commune;Rumex acetosa;non;; 
+70;Cornouiller sanguin;Cornus sanguinea;oui;(27,18) (27,19) ; 
+71;Pommier domestique;Malus pumila;oui;(7,2) (8,8) (14,3) (14,8) ;Doute avec le prunier
+72;Aubépine monogyne;Crataegus monogyna;non;; 
+73;Noyer commun;Juglans regia;oui;(4,16) (44,16) (57,18) ; x2 en (44,16)
+74;Frêne élevé;Fraxinus excelsior;oui;(2,8) ; 
+75;Géranium des pyrénées;Geranium pyrenaicum;non;; 
+76;Aster de nouvelle-angleterre;Symphyotrichum novea-angliae;non;; 
+77;Orchis pyramidal;Anacamptis pyramidalis;non;; 
+78;Chêne;Fagaceae;oui;(1,18) (4,1) (12,18) ;Nom peu précis (non photographié par l’application)
+79;Sapin;Abietoideae;oui;(2,11) (51,14) ;Nom peu précis (non photographié par l’application)
+80;Romarin;Salvia rosmarinus;oui;(45,1) ;Potager
+81;Lavande;Lavandula;oui;(52,2) ;Nom peu précis (non photographié par l’application)
+82;Sauge;Lamiaceae;oui;(50,3) ;Nom peu précis (non photographié par l’application)
+83;Petits pois;Pisum sativum;oui;(49,2) ;Nom peu précis (non photographié par l’application)
